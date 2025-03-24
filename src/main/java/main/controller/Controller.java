@@ -69,7 +69,6 @@ public class Controller {
                 default -> System.out.println("Invalid option");
             }
         }
-        mainMenu();
     }
 
     public void controller(){

@@ -13,7 +13,7 @@ public class Printer {
 
     public void menuOfOperations(){
         System.out.print("""
-                1. Add the element to the queue.
+                \n1. Add the element to the queue.
                 2. Delete the element from the queue.
                 3. Print the first element of the queue.
                 4. Print the elements of the queue.
@@ -22,7 +22,7 @@ public class Printer {
     }
 
     public void printer(String description){
-        System.out.println(description);
+        System.out.print(description);
     }
 
     public void timePrinter(String description, long time){
