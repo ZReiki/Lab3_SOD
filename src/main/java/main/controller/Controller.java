@@ -50,13 +50,13 @@ public class Controller {
                 }
                 case 2 -> {
                     printer.printer("Deleted element: ");
-                    if(op == 1) q1.delete();
-                    else q2.delete();
+                    if(op == 1) printer.printer(q1.delete());
+                    else printer.printer(q2.delete());
                 }
                 case 3 -> {
                     printer.printer("First element of the queue: ");
-                    if(op == 1) q1.peek();
-                    else q2.peek();
+                    if(op == 1) printer.printer(q1.peek());
+                    else printer.printer(q2.peek());
                 }
                 case 4 -> {
                     printer.printer("Full queue:\n");

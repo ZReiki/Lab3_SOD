@@ -21,6 +21,10 @@ public class Printer {
                 Your choice:\s""");
     }
 
+    public void printer(int value){
+        System.out.print(value);
+    }
+
     public void printer(String description){
         System.out.print(description);
     }
