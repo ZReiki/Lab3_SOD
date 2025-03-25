@@ -1,6 +1,6 @@
 package main.priorityQueue;
 
-public class timeMeasurement {
+public class TimeMeasurement {
     public void benchmarkQueueOperationsAdding(PriorityQueue<Integer> checkList){
         for(int i = 0; i < 10_000; i++){
             checkList.add((int) (Math.random() * 10_000));

@@ -10,7 +10,7 @@ public class Controller {
     private final Scanner sc = new Scanner(System.in);
     private final Printer printer = new Printer();
     private final PriorityQueue<Integer> q1 = new PriorityQueueOnArray(), q2 = new PriorityQueueOnDoubleLinkedList();
-    private final timeMeasurement tm = new timeMeasurement();
+    private final TimeMeasurement tm = new TimeMeasurement();
 
     public void mainMenu(){
         exitLabel:
